@@ -42,7 +42,7 @@ chr29 = [0, 51098607]
 
 
 step = sys.argv[2]  # 5mb
-step = int(step)*1000000
+step = float(step)*1000000
 
 winumber = chr1[1] // step + 1
 for i in range(winumber):
