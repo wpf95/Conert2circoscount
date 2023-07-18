@@ -1,7 +1,7 @@
 # Conert2circoscount.py
    
 
-`usage:`python Conert2circoscount.py input.file step(mb) > out.file
+`usage:`python Conert2circoscount.py [input.file] step(mb) > [out.file]
 
 `example:` When i want to count in bins of 5mb ,the unit of step is mb.  
 python Conert2circoscount.py [input.file] 5 > [out.file]
