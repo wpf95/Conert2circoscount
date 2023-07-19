@@ -34,7 +34,7 @@ def judge(x):
         return x
         
 #2.setting your bins unit is Mb
-step = sys.argv[2]  # 5mb
+step = sys.argv[2]  
 step = int(float(step)*1000000)
 # step=5000000
 
